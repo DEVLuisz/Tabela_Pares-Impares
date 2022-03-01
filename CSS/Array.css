@@ -1,0 +1,124 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+input {
+    font-size: 1em;
+    background:rgb(255, 255, 255);
+    border: 0;
+    margin-bottom: 1em;
+    color: rgb(0, 0, 0);
+    padding: 0.2em 0.6em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+    border-radius: 3px;
+}
+
+html, body {
+    width: 99.4%;
+    height: 99%;  
+    
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-image: url("../Img/Shinobu.jpg");
+    background-size: contain;
+    background-size: 50%;
+    background-size: 3em;
+    background-size: auto 1em;
+    background-size: 100%;
+    display: flex;    
+}
+
+.container2{
+    width: 400px;
+    height: 250px;
+    background-color:  rgb(184, 184, 184);
+    margin: auto;
+    border-radius: 3%;
+    padding: 3px;
+    overflow: auto;
+    background: linear-gradient(90deg, rgb(158, 40, 152) 0%, rgb(198, 129, 201) 100%);
+    background: -moz-linear-gradient(90deg, rgb(158, 40, 152) 0%, rgb(198, 129, 201) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(158, 40, 152) 0%, rgb(198, 129, 201) 100%);
+}
+
+.container3{
+    height: 30px; 
+    display: flex; 
+    align-items: center; 
+    padding: 1px;
+  }
+
+table{
+    margin-top: 3px;
+    width: 100%;  
+}
+
+table {
+    
+    text-align: left;    
+}
+
+.divTabelas{
+    width: 50%;
+}
+
+tr{
+    background-color:  rgb(251, 255, 255)
+}
+
+.col80{
+    width: 80%;
+}
+
+.col20{
+    width: 20%;
+    text-align: center;
+}
+
+label{
+   display: block;
+   margin-top: 3px;
+   margin-bottom: 2px;
+}
+
+.texto{
+    width: 280px;
+    height: 20px;
+    margin-top: 1%;
+}
+
+.adc{
+    margin-top: 1%;
+}
+
+.apaga{
+    margin-top: 1%;
+}
+.adc:hover{
+    background:rgb(153, 224, 236);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.apaga:hover{
+    background:rgb(243, 133, 194);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.texto:focus{
+    background-color:rgb(242, 165, 245); ;
+}
+
+
+
+
+
+
+
+

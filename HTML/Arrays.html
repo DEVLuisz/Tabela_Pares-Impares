@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array.Number</title>
+
+    <link rel="stylesheet" href="../CSS/Array.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="container2">
+            <div>
+                <label for="campoValor">Número</label>
+            </div>
+
+            <div class="container3">
+                <input type="number" name="campoNumero" id="campoNumero" class="texto">
+                <input type="button" class="adc" value="Save 💾" onclick="adicionar(campoNumero.value)">
+                <input type="button" class="apaga" value="Erase❌" onclick="erase()">
+            </div>
+
+            <div style="display: flex;">
+                <div class="divTabelas">
+                    <table id="tabelaPares">
+                        <th class="parnum">Números Pares</th>
+                    </table>
+                </div>
+                <div class="divTabelas">
+                    <table id="tabelaImpares">
+                        <th class="impnum">Números Ímpares</th>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="../JS/Arrays.js"></script>
+</body>
+
+</html>
